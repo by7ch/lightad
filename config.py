@@ -4,7 +4,7 @@ AVAILABLE_PARAMS_FOR_PAYLOADS = [
     "flag_id",
 ]
 
-USE = [
+USE_DB = [
     "REDIS",
     "TINYDB"
 ][0]
