@@ -26,6 +26,26 @@ def get_params(service: str) -> list:
     ]
 
 
+GET_TICK_TIME_MODE = "ALL"
+
+
+def get_tick_time() -> list:
+    return [
+
+    ]
+
+
+def initial_tick_time() -> int:
+    return 0
+
+
+def update_tick_time() -> int:
+    return 1
+
+
 def submit_flag(flag: str) -> bool:
     return True
 
+
+def check_flag(flag: str) -> bool:
+    return True
